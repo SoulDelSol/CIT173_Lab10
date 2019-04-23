@@ -1,0 +1,25 @@
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #0   56211e8bcfb8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933700 @ 15)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #1   7fff858414f0 b   self-hosted:261 (7f2ae75c1dc0 @ 223)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #2   56211e8bcf38 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933670 @ 17)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #3   56211e8bceb8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f2ae5933550 @ 10)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #4   7fff85842630 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f2ae75c18b0 @ 386)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #5   56211e8bce30 i   resource:///org/gnome/shell/ui/layout.js:530 (7f2ae72040d0 @ 127)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #6   7fff858435b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f2ae75b0b80 @ 71)
+Apr 21 22:41:32 localhost org.gnome.Shell.desktop[1534]: #7   7fff858441b0 b   self-hosted:977 (7f2ae75edf70 @ 413)
+Apr 21 22:41:32 localhost journal[1534]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 22:41:32 localhost journal[1691]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 22:41:35 localhost org.gnome.Shell.desktop[1534]: Window manager warning: last_user_time (6211768) is greater than comparison timestamp (6211767).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 22:41:35 localhost org.gnome.Shell.desktop[1534]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 6211768.  Working around...
+Apr 21 22:42:14 localhost dbus-daemon[745]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.537' (uid=0 pid=3031 comm="sudo tail -n 25 /var/log/messages " label="unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023")
+Apr 21 22:42:14 localhost systemd[1]: Starting Fingerprint Authentication Daemon...
+Apr 21 22:42:14 localhost dbus-daemon[745]: [system] Successfully activated service 'net.reactivated.Fprint'
+Apr 21 22:42:14 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 21 22:42:14 localhost systemd[1]: Started Fingerprint Authentication Daemon.
+Apr 21 22:42:17 localhost audit[3031]: USER_AUTH pid=3031 uid=1000 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_succeed_if,pam_localuser,pam_unix acct="markguerrero" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: USER_ACCT pid=3031 uid=1000 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="markguerrero" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: USER_CMD pid=3031 uid=1000 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/markguerrero" cmd=7461696C202D6E203235202F7661722F6C6F672F6D65737361676573 terminal=pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: CRED_REFR pid=3031 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: USER_START pid=3031 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: USER_END pid=3031 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:17 localhost audit[3031]: CRED_DISP pid=3031 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 21 22:42:45 localhost audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'

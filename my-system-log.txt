@@ -1,0 +1,50 @@
+Apr 21 22:50:51 localhost.localdomain gsd-color[1691]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 22:51:16 localhost.localdomain org.gnome.Shell.desktop[1534]: Window manager warning: last_user_time (6791998) is greater than comparison timestamp (6791997).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 22:51:16 localhost.localdomain org.gnome.Shell.desktop[1534]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 6791998.  Working around...
+Apr 21 22:51:36 localhost.localdomain gnome-shell[1534]: Object St.Widget (0x56211e474730), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: == Stack trace for context 0x56211bd4e1d0 ==
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #0   56211cd3c9a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933700 @ 15)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #1   7fff858414f0 b   self-hosted:261 (7f2ae75c1dc0 @ 223)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #2   56211cd3c928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933670 @ 17)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #3   56211cd3c8a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f2ae5933550 @ 10)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #4   7fff85842630 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f2ae75c18b0 @ 386)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #5   56211cd3c820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f2ae72040d0 @ 127)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #6   7fff858435b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f2ae75b0b80 @ 71)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #7   7fff858441b0 b   self-hosted:977 (7f2ae75edf70 @ 413)
+Apr 21 22:51:36 localhost.localdomain gnome-shell[1534]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 22:51:36 localhost.localdomain gnome-shell[1534]: Object St.Widget (0x56211d56d440), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: == Stack trace for context 0x56211bd4e1d0 ==
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #0   56211cd3c9a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933700 @ 15)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #1   7fff858414f0 b   self-hosted:261 (7f2ae75c1dc0 @ 223)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #2   56211cd3c928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933670 @ 17)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #3   56211cd3c8a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f2ae5933550 @ 10)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #4   7fff85842630 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f2ae75c18b0 @ 386)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #5   56211cd3c820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f2ae72040d0 @ 127)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #6   7fff858435b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f2ae75b0b80 @ 71)
+Apr 21 22:51:36 localhost.localdomain org.gnome.Shell.desktop[1534]: #7   7fff858441b0 b   self-hosted:977 (7f2ae75edf70 @ 413)
+Apr 21 22:51:36 localhost.localdomain gnome-shell[1534]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 22:51:36 localhost.localdomain gsd-color[1691]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 22:51:37 localhost.localdomain gnome-shell[1534]: Object St.Widget (0x56211e858040), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: == Stack trace for context 0x56211bd4e1d0 ==
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #0   56211cd3c9a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933700 @ 15)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #1   7fff85842030 b   self-hosted:261 (7f2ae75c1dc0 @ 223)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #2   56211cd3c928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933670 @ 17)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #3   56211cd3c8a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f2ae5933550 @ 10)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #4   7fff85843170 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f2ae75c18b0 @ 386)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #5   56211cd3c820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f2ae72040d0 @ 127)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #6   7fff858440f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f2ae75b0b80 @ 71)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #7   7fff858441b0 b   self-hosted:977 (7f2ae75edf70 @ 413)
+Apr 21 22:51:37 localhost.localdomain gnome-shell[1534]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 22:51:37 localhost.localdomain gnome-shell[1534]: Object St.Widget (0x56211d161840), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: == Stack trace for context 0x56211bd4e1d0 ==
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #0   56211cd3c9a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933700 @ 15)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #1   7fff85842030 b   self-hosted:261 (7f2ae75c1dc0 @ 223)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #2   56211cd3c928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f2ae5933670 @ 17)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #3   56211cd3c8a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f2ae5933550 @ 10)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #4   7fff85843170 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f2ae75c18b0 @ 386)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #5   56211cd3c820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f2ae72040d0 @ 127)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #6   7fff858440f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f2ae75b0b80 @ 71)
+Apr 21 22:51:37 localhost.localdomain org.gnome.Shell.desktop[1534]: #7   7fff858441b0 b   self-hosted:977 (7f2ae75edf70 @ 413)
+Apr 21 22:51:37 localhost.localdomain gnome-shell[1534]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 22:51:37 localhost.localdomain gsd-color[1691]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 22:56:09 localhost.localdomain logger[3169]: "Help! I've fallen and I can't get up!"

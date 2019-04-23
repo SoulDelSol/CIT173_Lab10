@@ -1,0 +1,181 @@
+Apr 21 23:21:34 localhost systemd[1394]: pulseaudio.service: Failed with result 'exit-code'.
+Apr 21 23:21:34 localhost gdm[923]: GLib: g_hash_table_find: assertion 'version == hash_table->version' failed
+Apr 21 23:21:34 localhost systemd[1394]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 21 23:21:37 localhost kernel: systemd-shutdow: 30 output lines suppressed due to ratelimiting
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'cpu cycles' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'instructions' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'bus cycles' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'cache references' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'cache misses' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'branch instructions' unavailable
+Apr 21 23:22:08 localhost kernel: core: CPUID marked event: 'branch misses' unavailable
+Apr 21 23:22:08 localhost kernel: pmd_set_huge: Cannot satisfy [mem 0xf0000000-0xf0200000] with a huge-page mapping due to MTRR override.
+Apr 21 23:22:10 localhost kernel: sd 2:0:0:0: [sda] Assuming drive cache: write through
+Apr 21 23:22:10 localhost kernel: sd 2:0:1:0: [sdb] Assuming drive cache: write through
+Apr 21 23:22:10 localhost kernel: sd 2:0:2:0: [sdc] Assuming drive cache: write through
+Apr 21 23:22:15 localhost kernel: systemd: 18 output lines suppressed due to ratelimiting
+Apr 21 23:22:16 localhost systemd-vconsole-setup[555]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+Apr 21 23:22:16 localhost systemd-vconsole-setup[555]: Fonts will not be copied to remaining consoles
+Apr 21 23:22:17 localhost kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Apr 21 23:22:18 localhost kernel: kauditd_printk_skb: 46 callbacks suppressed
+Apr 21 23:22:19 localhost systemd-vconsole-setup[615]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+Apr 21 23:22:19 localhost systemd-vconsole-setup[615]: Fonts will not be copied to remaining consoles
+Apr 21 23:22:19 localhost systemd-vconsole-setup[617]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+Apr 21 23:22:19 localhost systemd-vconsole-setup[617]: Fonts will not be copied to remaining consoles
+Apr 21 23:22:22 localhost avahi-daemon[714]: System host name is set to 'localhost'. This is not a suitable mDNS host name, looking for alternatives.
+Apr 21 23:22:24 localhost journal[710]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 21 23:22:25 localhost journal[710]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 21 23:22:34 localhost systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Apr 21 23:22:36 localhost org.gnome.Shell.desktop[1027]: glamor: No eglstream capable devices found
+Apr 21 23:22:37 localhost org.gnome.Shell.desktop[1027]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 21 23:22:37 localhost org.gnome.Shell.desktop[1027]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 21 23:22:37 localhost org.gnome.Shell.desktop[1027]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:22:37 localhost org.gnome.Shell.desktop[1027]: >                   This warning only shows for the first high keycode.
+Apr 21 23:22:37 localhost org.gnome.Shell.desktop[1027]: Errors from xkbcomp are not fatal to the X server
+Apr 21 23:22:40 localhost journal[1027]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 21 23:22:40 localhost journal[1027]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 21 23:22:40 localhost journal[1027]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 21 23:22:40 localhost journal[1027]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 21 23:22:41 localhost spice-vdagent[1206]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 21 23:22:41 localhost gnome-session-binary[987]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: >                   This warning only shows for the first high keycode.
+Apr 21 23:22:43 localhost org.gnome.Shell.desktop[1027]: Errors from xkbcomp are not fatal to the X server
+Apr 21 23:22:45 localhost journal[1027]: Failed to flip: Device or resource busy
+Apr 21 23:22:45 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 21 23:22:46 localhost journal[1302]: failed to get edid data: EDID length is too small
+Apr 21 23:22:47 localhost journal[1183]: failed to get edid: unable to get EDID for output
+Apr 21 23:22:47 localhost journal[1183]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: glamor: No eglstream capable devices found
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: >                   This warning only shows for the first high keycode.
+Apr 21 23:23:00 localhost org.gnome.Shell.desktop[1468]: Errors from xkbcomp are not fatal to the X server
+Apr 21 23:23:03 localhost journal[1468]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 21 23:23:03 localhost journal[1468]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 21 23:23:03 localhost journal[1468]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 21 23:23:03 localhost journal[1468]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 21 23:23:05 localhost journal[1570]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+Apr 21 23:23:06 localhost spice-vdagent[1614]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 21 23:23:06 localhost gnome-session-binary[1366]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 21 23:23:06 localhost journal[1599]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.A11ySettings.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Datetime.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Housekeeping.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Mouse.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.PrintNotifications.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Rfkill.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.ScreensaverProxy.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Sharing.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Smartcard.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Sound.desktop' killed by signal 15
+Apr 21 23:23:07 localhost journal[1027]: Connection to xwayland lost
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Clipboard.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Keyboard.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Wacom.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.XSettings.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Color.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.MediaKeys.desktop' killed by signal 15
+Apr 21 23:23:07 localhost gnome-session-binary[987]: WARNING: Application 'org.gnome.SettingsDaemon.Power.desktop' killed by signal 15
+Apr 21 23:23:08 localhost gnome-session-binary[987]: WARNING: App 'org.gnome.Shell.desktop' exited with code 1
+Apr 21 23:23:08 localhost gnome-session-binary[987]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Apr 21 23:23:08 localhost systemd[918]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 21 23:23:08 localhost journal[1468]: Object St.Widget (0x555b9aaf6c40), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: == Stack trace for context 0x555b98baa1d0 ==
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #0   555b98fa0028 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33700 @ 15)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #1   7ffdba4ac6e0 b   self-hosted:261 (7f5f8b9c1dc0 @ 223)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #2   555b98f9ffa8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33670 @ 17)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #3   555b98f9ff28 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f5f89e33550 @ 10)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #4   7ffdba4ad820 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #5   555b98f9fe70 i   resource:///org/gnome/shell/ui/layout.js:655 (7f5f8b604670 @ 533)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #6   7ffdba4ae720 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f5f8b9b0b80 @ 71)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #7   555b98f9fdf0 i   resource:///org/gnome/shell/ui/layout.js:600 (7f5f8b6045e0 @ 90)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #8   7ffdba4af6c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:08 localhost org.gnome.Shell.desktop[1468]: #9   555b98f9fd70 i   resource:///org/gnome/shell/ui/background.js:522 (7f5f8b60bdc0 @ 17)
+Apr 21 23:23:08 localhost journal[1468]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 23:23:09 localhost journal[1468]: Object St.Widget (0x555b9acd2b60), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 23:23:09 localhost journal[1468]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: == Stack trace for context 0x555b98baa1d0 ==
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #0   555b9aae49a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33700 @ 15)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #1   7ffdba4ad2b0 b   self-hosted:261 (7f5f8b9c1dc0 @ 223)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #2   555b9aae4928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33670 @ 17)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #3   555b9aae48a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f5f89e33550 @ 10)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #4   7ffdba4ae3f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #5   555b9aae4820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f5f8b6040d0 @ 127)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #6   7ffdba4af2f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f5f8b9b0b80 @ 71)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #7   7ffdba4af3b0 b   self-hosted:977 (7f5f8b9edf70 @ 413)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: == Stack trace for context 0x555b98baa1d0 ==
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #0   555b9aae49a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33700 @ 15)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #1   7ffdba4ad2b0 b   self-hosted:261 (7f5f8b9c1dc0 @ 223)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #2   555b9aae4928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33670 @ 17)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #3   555b9aae48a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f5f89e33550 @ 10)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #4   7ffdba4ae3f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #5   555b9aae4820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f5f8b6040d0 @ 127)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #6   7ffdba4af2f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f5f8b9b0b80 @ 71)
+Apr 21 23:23:09 localhost org.gnome.Shell.desktop[1468]: #7   7ffdba4af3b0 b   self-hosted:977 (7f5f8b9edf70 @ 413)
+Apr 21 23:23:09 localhost journal[1468]: Object St.Widget (0x555b9aceb0e0), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 23:23:09 localhost journal[1468]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 23:23:10 localhost journal[1468]: Object St.Widget (0x555b9ae73600), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: == Stack trace for context 0x555b98baa1d0 ==
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #0   555b9aae49a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33700 @ 15)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #1   7ffdba4ad2b0 b   self-hosted:261 (7f5f8b9c1dc0 @ 223)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #2   555b9aae4928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33670 @ 17)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #3   555b9aae48a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f5f89e33550 @ 10)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #4   7ffdba4ae370 I   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #5   555b9aae4820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f5f8b6040d0 @ 127)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #6   7ffdba4af2f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f5f8b9b0b80 @ 71)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #7   7ffdba4af3b0 b   self-hosted:977 (7f5f8b9edf70 @ 413)
+Apr 21 23:23:10 localhost journal[1468]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 23:23:10 localhost journal[1468]: Object St.Widget (0x555b9ae77490), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: == Stack trace for context 0x555b98baa1d0 ==
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #0   555b9aae49a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33700 @ 15)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #1   7ffdba4ad2b0 b   self-hosted:261 (7f5f8b9c1dc0 @ 223)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #2   555b9aae4928 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f5f89e33670 @ 17)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #3   555b9aae48a8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f5f89e33550 @ 10)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #4   7ffdba4ae370 I   resource:///org/gnome/gjs/modules/signals.js:128 (7f5f8b9c18b0 @ 386)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #5   555b9aae4820 i   resource:///org/gnome/shell/ui/layout.js:530 (7f5f8b6040d0 @ 127)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #6   7ffdba4af2f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f5f8b9b0b80 @ 71)
+Apr 21 23:23:10 localhost org.gnome.Shell.desktop[1468]: #7   7ffdba4af3b0 b   self-hosted:977 (7f5f8b9edf70 @ 413)
+Apr 21 23:23:10 localhost journal[1468]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: >                   X11 cannot support keycodes above 255.
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: >                   This warning only shows for the first high keycode.
+Apr 21 23:23:11 localhost org.gnome.Shell.desktop[1468]: Errors from xkbcomp are not fatal to the X server
+Apr 21 23:23:12 localhost journal[1468]: Failed to flip: Device or resource busy
+Apr 21 23:23:12 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 21 23:23:14 localhost vmware-user.desktop[1823]: vmware-user: could not open /proc/fs/vmblock/dev
+Apr 21 23:23:14 localhost vmware-user.desktop[1823]: vmware-user: could not open uinput device
+Apr 21 23:23:17 localhost journal[1624]: failed to get edid: unable to get EDID for output
+Apr 21 23:23:18 localhost journal[1624]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 23:23:19 localhost libcanberra-login-sound.desktop[1827]: Failed to play sound: File or data not found
+Apr 21 23:23:19 localhost journal[1829]: gtk_disable_setlocale() must be called before gtk_init()
+Apr 21 23:23:19 localhost abrt-applet.desktop[1830]: abrt-applet: Can't connect to system DBus: Error calling StartServiceByName for org.freedesktop.problems: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ExecFailed: Failed to execute program org.freedesktop.problems: Permission denied
+Apr 21 23:23:19 localhost journal[1834]: Failed to load /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: failed to open plugin /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: libdnf.so.1: cannot open shared object file: No such file or directory
+Apr 21 23:23:20 localhost journal[1468]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 21 23:23:20 localhost journal[1468]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 21 23:23:22 localhost journal[1834]: plugin appstream took 2.4 seconds to do setup
+Apr 21 23:23:36 localhost journal[1960]: backend-store.vala:434: Error preparing Backend 'telepathy': The name org.freedesktop.Telepathy.AccountManager was not provided by any .service files
+Apr 21 23:23:38 localhost journal[1972]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 21 23:23:43 localhost journal[1834]: Only 0 apps for recent list, hiding
+Apr 21 23:27:49 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (342462) is greater than comparison timestamp (342431).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:49 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 342462.  Working around...
+Apr 21 23:27:49 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (343058) is greater than comparison timestamp (343027).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:49 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 343058.  Working around...
+Apr 21 23:27:50 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (343388) is greater than comparison timestamp (343358).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:50 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 343388.  Working around...
+Apr 21 23:27:50 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (343987) is greater than comparison timestamp (343957).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:50 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 343987.  Working around...
+Apr 21 23:27:51 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (345203) is greater than comparison timestamp (345170).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:51 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 345203.  Working around...
+Apr 21 23:27:52 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (345462) is greater than comparison timestamp (345430).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:52 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 345462.  Working around...
+Apr 21 23:27:58 localhost org.gnome.Shell.desktop[1468]: Window manager warning: last_user_time (351634) is greater than comparison timestamp (351603).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 21 23:27:58 localhost org.gnome.Shell.desktop[1468]: Window manager warning: W1 (markguerre) appears to be one of the offending windows with a timestamp of 351634.  Working around...
